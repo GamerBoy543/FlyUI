@@ -1,7 +1,7 @@
 name: FlyUI
 version: 1.0
 api: [3.0.0]
-author: GamerBoy543
+author: GamerBoy
 main: FlyUI\Main
 
 commands:

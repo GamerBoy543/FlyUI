@@ -1,0 +1,10 @@
+name: FlyUI
+version: 1.0
+api: [3.0.0]
+author: GamerBoy543
+main: FlyUI\Main
+
+commands:
+  flyui:
+    description: "Open the FlyUI"
+    permisson: flyui.use

@@ -1,5 +1,6 @@
 <?php
 /**
+ * For this Plugin you need FormAPI
  * PocketMine FlyUI Plugin
  */
 namespace FlyUI;
@@ -51,13 +52,13 @@ class Main extends PluginBase implements Listener {
                 case 0:
                     $player->setAllowFlight(true);
                     $player->sendMessage("§bYou have enabled fly!");
-                    break;
+                break;
                     
                 case 1:
                     $player->setAllowFlight(false);
                     $player->setFlying(false);
                     $player->sendMessage("§CYou have disabled fly!");
-                    break;
+                break;
             }
         });
         $form->setTitle("§l§cFlyUI");

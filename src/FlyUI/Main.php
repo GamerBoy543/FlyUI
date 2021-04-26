@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * PocketMine FlyUI Plugin
+ */
 namespace FlyUI;
 
 use pocketmine\Server;
